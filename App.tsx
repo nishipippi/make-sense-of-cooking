@@ -85,8 +85,8 @@ const App: React.FC = () => {
         )}
       </main>
       <footer className="mt-12 text-center text-sm text-gray-700">
-        <p>&copy; {new Date().getFullYear()} 筋通しましょうや. All Rights Reserved.</p>
-        <p>Inspired by fairness and delicious meals.</p>
+        <p>&copy; {new Date().getFullYear()} nishipippi All Rights Reserved.</p>
+        <p>Inspired by Reisa Uzawa.</p>
       </footer>
     </div>
   );
