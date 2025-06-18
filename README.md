@@ -1,14 +1,33 @@
-# Run and deploy your AI Studio app
+# 筋通しましょうや
 
-This contains everything you need to run your app locally.
+これは、食事の準備や片付けなどのタスクを、参加者間で公平に分担するためのアプリケーションです。
 
-## Run Locally
+## デモ
 
-**Prerequisites:**  Node.js
+[こちらからすぐに試せます。](https://make-sense-of-cooking.vercel.app/)
 
+## 主な機能
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+*   参加者の名前を入力してリストに追加
+*   各参加者に「準備担当」または「片付け担当」の役割をランダムに割り当て
+*   割り当てられた役割をドラッグ＆ドロップで変更可能
+
+## 技術スタック
+
+*   React
+*   Vite
+*   TypeScript
+
+## セットアップと実行
+
+1.  **依存関係のインストール:**
+    ```bash
+    npm install
+    ```
+
+2.  **開発サーバーの起動:**
+    ```bash
+    npm run dev
+    ```
+
+3.  ブラウザで `http://localhost:5173` を開きます。

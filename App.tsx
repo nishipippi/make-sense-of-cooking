@@ -60,7 +60,7 @@ const App: React.FC = () => {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-pink-200 to-blue-200 flex flex-col items-center justify-start p-4 sm:p-6 md:p-8 pt-12 sm:pt-16">
+    <div className="min-h-screen bg-gradient-to-br from-purple-200 via-pink-200 to-blue-200 flex flex-col items-center justify-center p-4 sm:p-6 md:p-8">
       <header className="mb-8 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-700 bg-clip-text text-transparent pb-2">
           {APP_TITLE}
